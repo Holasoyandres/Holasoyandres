@@ -54,15 +54,15 @@ He liderado y ejecutado proyectos clave de infraestructura digital, portales web
 
 - **Inferencia 100% Local y Privada:** Procesamiento de lenguaje natural mediante modelos locales (DeepSeek / Llama 3) vía Ollama, garantizando soberanía de datos y cero exposición a APIs externas.
 - **RAG Híbrido de Alta Precisión:** Motor de recuperación que combina búsqueda densa con embeddings semánticos (`pgvector`) y búsqueda léxica (BM25 / trigramas), con normalización de dialectos colombianos y regional llanero.
-- **Interoperabilidad de Trámites y Pagos:** Integración con los 14 Trámites oficiales del SUIT, consulta digital de facturas y pasarela de pago directo Davivienda / PSE.
+- **Interoperabilidad de Trámites y Pagos:** Integración con los 14 Trámites oficiales del <span translate="no">SUIT</span> (Sistema Único de Información de Trámites), consulta digital de facturas y pasarela de pago directo Davivienda / PSE.
 - **Calidad de Código:** Más de **400 pruebas automatizadas end-to-end e integración** con 100% de éxito, validación HMAC SHA-256 de webhooks y control horario estricto.
 
 👉 **[Explorar repositorio EAAV-IA →](https://github.com/Holasoyandres/EAAV-IA)**
 
 ---
 
-### 2. 🏛️ Portal Web de Trámites SUIT 2026 — EAAV E.S.P.
-> **Plataforma web integral y modular para la digitalización y gestión de los 14 trámites oficiales del Sistema Único de Información de Trámites (SUIT) de Colombia.**
+### 2. 🏛️ Portal Web de Trámites <span translate="no">SUIT</span> 2026 — EAAV E.S.P.
+> **Plataforma web integral y modular para la digitalización y gestión de los 14 trámites oficiales del Sistema Único de Información de Trámites (<span translate="no">SUIT</span>) de Colombia.**
 
 <div align="center">
   <img src="https://img.shields.io/badge/WordPress-CMS%20Empresarial-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress" />
@@ -76,7 +76,7 @@ He liderado y ejecutado proyectos clave de infraestructura digital, portales web
 <br>
 
 - **Arquitectura Aislada y Segura:** Diseñado y configurado como un subsistema web 100% independiente (`/var/www/tramitesuit`) para garantizar que la actualización o mantenimiento de trámites no comprometa el portal web principal de la entidad.
-- **Catálogo Digital de 14 Trámites SUIT:** Estructuración y puesta en línea de los requerimientos, normas, canales de atención, costos y flujos paso a paso de los 14 trámites ciudadanos ante la EAAV (conexión a acueducto, independizaciones, cambios de titular, recursos de reposición, etc.).
+- **Catálogo Digital de 14 Trámites <span translate="no">SUIT</span>:** Estructuración y puesta en línea de los requerimientos, normas, canales de atención, costos y flujos paso a paso de los 14 trámites ciudadanos ante la EAAV (conexión a acueducto, independizaciones, cambios de titular, recursos de reposición, etc.).
 - **Automatización de Despliegue en Servidores:** Scripts automatizados en Python y Bash para inyección segura de accesos rápidos (*quick-action buttons*) en producción, migración de bases de datos relacionales entre entornos (servidores de prueba y producción oficial `eaav.gov.co`) y configuración de directivas Apache con control de acceso estricto.
 - **Empaquetado para Producción:** Generación del paquete oficial de distribución y entrega técnica (`PAQUETE_USB_TRAMITES_SUIT_2026`) con guías completas de contingencia y administración de servidores.
 
